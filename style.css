@@ -386,3 +386,27 @@ body, html {
 .social-img:hover {
   transform: scale(1.1);
 }
+
+
+@media (max-width: 768px) {
+  .page1-content, .page2-content, .page4-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-side img,
+  .profile-img {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
+  .right-actions {
+    align-items: center;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
